@@ -74507,10 +74507,7 @@
 /area/nadezhda/engineering/atmos/storage)
 "oEw" = (
 /obj/structure/closet/secure_closet/personal/miner,
-/obj/item/storage/firstaid/ifak,
-/obj/item/gun/projectile/shotgun/pump,
-/obj/item/ammo_magazine/ammobox/shotgun/buckshot,
-/obj/item/ammo_magazine/ammobox/shotgun/buckshot,
+/obj/item/clothing/glasses/powered/meson/eyepatch,
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/quartermaster/miningdock)
 "oEz" = (
@@ -107766,13 +107763,10 @@
 /area/nadezhda/command/merchant)
 "vau" = (
 /obj/structure/closet/secure_closet/personal/miner,
-/obj/item/storage/firstaid/ifak,
-/obj/item/gun/projectile/shotgun/pump,
-/obj/item/ammo_magazine/ammobox/shotgun/buckshot,
-/obj/item/ammo_magazine/ammobox/shotgun/buckshot,
 /obj/machinery/firealarm{
 	pixel_y = 32
 	},
+/obj/item/clothing/glasses/powered/meson/eyepatch,
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/quartermaster/miningdock)
 "vaw" = (

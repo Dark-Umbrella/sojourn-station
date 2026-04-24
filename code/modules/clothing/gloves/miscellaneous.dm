@@ -92,7 +92,7 @@
 	name = "combat gloves"
 	icon_state = "ihscombat"
 	item_state = "ihscombat"
-	armor_list = list(melee = 5, bullet = 5, energy = 5, bomb = 10, bio = 10, rad = 0)
+	armor_list = list(melee = 6, bullet = 5, energy = 5, bomb = 20, bio = 0, rad = 0)
 	price_tag = 150
 
 /obj/item/clothing/gloves/thick/swat/insulated
@@ -101,9 +101,10 @@
 	These have added insulated gloves sacerficing some of its protection to be better suited to deal with eletrical work under less then ideal cases."
 	icon_state = "combat_yellow"
 	item_state = "combat_yellow"
-	armor_list = list(melee = 3, bullet = 3, energy = 2, bomb = 0, bio = 10, rad = 0)
+	armor_list = list(melee = 3, bullet = 3, energy = 2, bomb = 20, bio = 0, rad = 0)
 	price_tag = 350
 	siemens_coefficient = 0
+
 
 /obj/item/clothing/gloves/thick/ablative
 	name = "ablative gloves"
@@ -134,7 +135,8 @@
 
 /obj/item/clothing/gloves/thick/swat/blackshield_corpsman
 	name = "corpsman combat gloves"
-	desc = "A pair of fire and impact-resistant corpsman combat gloves." // No lying, it's not anti-germs.
+	desc = "A pair of fire and impact-resistant corpsman combat gloves. \
+	These have added insulated gloves sacerficing some of its protection to be better suited to deal with eletrical work under less then ideal cases." // No lying, it's not anti-germs.
 	icon_state = "corpsman_base_gloves"
 	item_state = "corpsman_base_gloves"
 	armor_list = list(melee = 5, bullet = 5, energy = 5, bomb = 10, bio = 30, rad = 0)
@@ -171,6 +173,8 @@
 
 /obj/item/clothing/gloves/thick/swat/blackshield //Combined effect of SWAT gloves and insulated gloves
 	name = "blackshield combat gloves"
+	desc = "A pair of fire and impact-resistant security combat gloves. \
+	These have added insulated gloves sacerficing some of its protection to be better suited to deal with eletrical work under less then ideal cases."
 	icon_state = "bs_base_gloves"
 	item_state = "bs_base_gloves"
 	armor_list = list(melee = 5, bullet = 5, energy = 5, bomb = 10, bio = 10, rad = 0)

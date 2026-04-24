@@ -316,7 +316,7 @@
 	icon_state = "northtech_deferred"
 	initial_contents = list(
 	/obj/item/clothing/mask/balaclava/tactical = 1,
-	/obj/item/clothing/shoes/ablasive/iron_lock_security = 1,
+	/obj/item/clothing/shoes/ablative/iron_lock_security = 1,
 	/obj/item/clothing/gloves/thick/ablative/iron_lock_security  = 1,
 	/obj/item/clothing/head/soft/iron_lock_security = 1,
 	/obj/item/clothing/head/helmet/laserproof/iron_lock_security = 1,

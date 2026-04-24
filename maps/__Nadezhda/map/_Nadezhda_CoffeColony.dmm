@@ -1809,6 +1809,11 @@
 /area/nadezhda/security/prisoncells{
 	name = "Interrogation"
 	})
+"ath" = (
+/obj/structure/railing,
+/obj/effect/floor_decal/industrial/danger,
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/nadezhda/engineering/engine_waste)
 "ato" = (
 /obj/structure/sink/kitchen{
 	dir = 4;
@@ -4446,13 +4451,15 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/rnd/xenobiology/xenoflora)
 "aWk" = (
-/obj/effect/decal/cleanable/generic,
-/obj/effect/decal/cleanable/blood/oil,
-/obj/effect/floor_decal/industrial/danger,
-/obj/structure/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c"
+/obj/effect/floor_decal/industrial/danger{
+	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/railing{
+	dir = 1;
+	tag = "icon-railing0 (NORTH)"
+	},
+/obj/item/scrap_lump,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/engineering/engine_waste)
 "aWq" = (
@@ -5522,10 +5529,14 @@
 /turf/simulated/floor/wood/wild3,
 /area/nadezhda/command/crematorium)
 "bgl" = (
-/obj/random/junk/cigbutt,
+/obj/structure/railing{
+	dir = 1;
+	tag = "icon-railing0 (NORTH)"
+	},
 /obj/effect/floor_decal/industrial/danger{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/engineering/engine_waste)
 "bgt" = (
@@ -14640,6 +14651,8 @@
 /obj/machinery/camera/network/engineering{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/engineering/engine_waste)
 "cXv" = (
@@ -19743,6 +19756,7 @@
 /area/nadezhda/engineering/atmos/surface)
 "dXR" = (
 /obj/machinery/light,
+/obj/random/structures,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/engineering/engine_waste)
 "dXS" = (
@@ -21586,6 +21600,7 @@
 	dir = 8
 	},
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable/yellow,
 /turf/simulated/floor/wood/wild1,
 /area/nadezhda/crew_quarters/bar)
 "epJ" = (
@@ -35144,10 +35159,10 @@
 /turf/simulated/floor/tiled/dark/cyancorner,
 /area/nadezhda/crew_quarters/sleep/cryo2)
 "gWG" = (
-/obj/structure/cable/yellow,
 /obj/effect/floor_decal/industrial/box{
 	color = "f3cbbc"
 	},
+/obj/structure/cable/yellow,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/engineering/engine_room)
 "gWN" = (
@@ -37630,10 +37645,13 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "hyM" = (
-/obj/effect/floor_decal/industrial/danger{
-	dir = 1
+/obj/structure/railing{
+	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/floor_decal/industrial/danger{
+	dir = 8;
+	tag = "icon-danger (WEST)"
+	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/engineering/engine_waste)
 "hyO" = (
@@ -49165,8 +49183,14 @@
 /turf/simulated/floor/wood,
 /area/nadezhda/command/cro)
 "jIn" = (
-/obj/structure/disposalpipe/segment,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/obj/effect/decal/cleanable/blood/oil,
+/obj/effect/floor_decal/industrial/danger,
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/obj/structure/railing,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/engineering/engine_waste)
 "jIq" = (
@@ -58036,9 +58060,11 @@
 /turf/simulated/floor/tiled/dark/danger,
 /area/nadezhda/medical/sleeper)
 "lvT" = (
-/obj/effect/floor_decal/industrial/box/red,
-/obj/machinery/recycler,
-/turf/simulated/floor/tiled/dark/gray_platform,
+/obj/effect/floor_decal/industrial/danger,
+/obj/machinery/sorter/biomatter{
+	input_side = 1
+	},
+/turf/simulated/floor/plating/under,
 /area/nadezhda/engineering/engine_waste)
 "lvU" = (
 /obj/structure/window/reinforced{
@@ -62425,6 +62451,10 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/rnd/rbreakroom)
+"mpC" = (
+/obj/random/structures,
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/nadezhda/engineering/engine_waste)
 "mpD" = (
 /obj/structure/closet/wall_mounted/emcloset/escape_pods{
 	pixel_y = 32
@@ -66656,15 +66686,8 @@
 /turf/simulated/floor/tiled/dark/danger,
 /area/nadezhda/engineering/atmos)
 "ngc" = (
-/obj/effect/floor_decal/industrial/danger{
-	dir = 1
-	},
-/obj/item/trash/pistachios,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/railing{
-	dir = 1;
-	tag = "icon-railing0 (NORTH)"
-	},
+/obj/effect/decal/cleanable/blood/oil,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/engineering/engine_waste)
 "nge" = (
@@ -68105,13 +68128,15 @@
 /turf/simulated/floor/plating/under,
 /area/nadezhda/outside/inside_colony)
 "nuH" = (
-/obj/effect/floor_decal/industrial/danger{
-	dir = 1
-	},
 /obj/structure/railing{
-	dir = 1;
-	tag = "icon-railing0 (NORTH)"
+	dir = 4;
+	tag = "icon-railing0 (EAST)"
 	},
+/obj/effect/floor_decal/industrial/danger{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/scrap_lump,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/engineering/engine_waste)
 "nuJ" = (
@@ -68270,8 +68295,8 @@
 /turf/simulated/floor/wood/wild4,
 /area/nadezhda/dungeon/outside/farm)
 "nwk" = (
-/obj/effect/floor_decal/industrial/danger,
-/obj/item/scrap_lump,
+/obj/effect/decal/cleanable/dirt,
+/obj/random/structures,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/engineering/engine_waste)
 "nwn" = (
@@ -68494,6 +68519,10 @@
 	})
 "nyB" = (
 /obj/structure/catwalk,
+/obj/structure/railing{
+	dir = 1;
+	tag = "icon-railing0 (NORTH)"
+	},
 /turf/simulated/floor/plating/under,
 /area/nadezhda/engineering/engine_waste)
 "nyC" = (
@@ -80428,15 +80457,8 @@
 /turf/unsimulated/wall/jungle,
 /area/nadezhda/outside/forest)
 "pLP" = (
-/obj/effect/floor_decal/industrial/danger{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/generic,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/railing{
-	dir = 1;
-	tag = "icon-railing0 (NORTH)"
-	},
+/obj/structure/railing,
+/obj/effect/floor_decal/industrial/box/red,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/engineering/engine_waste)
 "pLR" = (
@@ -88882,9 +88904,8 @@
 	name = "Residential District Maintenance"
 	})
 "rvK" = (
-/obj/effect/floor_decal/industrial/danger,
-/obj/structure/railing,
-/turf/simulated/floor/tiled/dark/gray_perforated,
+/obj/machinery/recycler,
+/turf/simulated/floor/plating/under,
 /area/nadezhda/engineering/engine_waste)
 "rvM" = (
 /obj/structure/railing/grey{
@@ -88967,6 +88988,12 @@
 /area/nadezhda/maintenance{
 	name = "Residential District Maintenance"
 	})
+"rwC" = (
+/obj/item/scrap_lump,
+/obj/structure/railing,
+/obj/effect/floor_decal/industrial/danger,
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/nadezhda/engineering/engine_waste)
 "rwG" = (
 /turf/simulated/floor/tiled/white,
 /area/nadezhda/crew_quarters/pool)
@@ -91318,6 +91345,9 @@
 /area/nadezhda/pros/prep)
 "rVb" = (
 /obj/machinery/atmospherics/unary/vent_scrubber{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/danger/corner{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
@@ -96139,11 +96169,10 @@
 /turf/simulated/floor/tiled/dark/golden,
 /area/nadezhda/command/prime)
 "sRD" = (
-/obj/effect/floor_decal/industrial/danger{
-	dir = 1
+/obj/machinery/conveyor/southeast/ccw{
+	id = "disposals grinder"
 	},
-/obj/item/scrap_lump,
-/turf/simulated/floor/tiled/dark/gray_perforated,
+/turf/simulated/floor/plating/under,
 /area/nadezhda/engineering/engine_waste)
 "sRJ" = (
 /turf/simulated/wall/r_wall,
@@ -106180,7 +106209,7 @@
 /area/nadezhda/crew_quarters/techshop)
 "uLW" = (
 /obj/machinery/power/breakerbox{
-	RCon_tag = "Crg Substation Bypass"
+	RCon_tag = "Sci Substation Bypass"
 	},
 /obj/effect/floor_decal/industrial/danger,
 /obj/effect/floor_decal/industrial/danger{
@@ -115586,6 +115615,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/industrial/grey_slates,
 /area/nadezhda/maintenance/surfaceeast)
+"wzu" = (
+/obj/effect/floor_decal/industrial/danger{
+	dir = 1
+	},
+/obj/item/trash/pistachios,
+/obj/structure/railing{
+	dir = 1;
+	tag = "icon-railing0 (NORTH)"
+	},
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/nadezhda/engineering/engine_waste)
 "wzz" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 8;
@@ -116805,6 +116845,7 @@
 /obj/effect/floor_decal/industrial/box/red/corners{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/engineering/engine_waste)
 "wNf" = (
@@ -120455,8 +120496,10 @@
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/hallway/surface/section1)
 "xzP" = (
-/obj/effect/floor_decal/industrial/danger,
-/turf/simulated/floor/tiled/dark/gray_perforated,
+/obj/machinery/conveyor/southeast{
+	id = "disposals grinder"
+	},
+/turf/simulated/floor/plating/under,
 /area/nadezhda/engineering/engine_waste)
 "xzZ" = (
 /obj/effect/decal/cleanable/rubble,
@@ -192425,9 +192468,9 @@ tip
 rhW
 rSI
 ugO
-hgO
-hgO
-nEC
+ngc
+nwk
+mpC
 tip
 cZb
 cZb
@@ -192625,11 +192668,11 @@ hrP
 hrP
 tip
 qBv
-nEC
 lSL
 prA
 eUS
-nEC
+mpC
+mpC
 tip
 cZb
 cZb
@@ -192828,9 +192871,9 @@ xOl
 jBC
 uMg
 jIn
-aWk
 wzV
-hyM
+aWk
+hgO
 lEl
 tip
 cZb
@@ -193029,10 +193072,10 @@ kfg
 tvn
 tip
 dIo
-hgO
 kGt
 lXx
 rTx
+hgO
 dXR
 tip
 cZb
@@ -193231,9 +193274,9 @@ kfg
 vuv
 sOw
 sVn
-hgO
 hFX
 jYT
+wzu
 ngc
 wNc
 tip
@@ -193433,10 +193476,10 @@ kfg
 bZX
 sOw
 sVn
-hgO
 odF
-lXx
-pLP
+aJf
+bgl
+hgO
 cXt
 tip
 cZb
@@ -193635,11 +193678,11 @@ gOA
 ecn
 sOw
 sVn
-hgO
-nwk
-cqp
+rwC
+aJf
 bgl
-nEC
+hgO
+hgO
 tip
 cZb
 cZb
@@ -193837,11 +193880,11 @@ gOA
 ecn
 sOw
 sVn
-hgO
-rvK
-aJf
-nuH
 nEC
+cqp
+hgO
+nuH
+hgO
 tip
 tip
 cZb
@@ -194039,7 +194082,7 @@ gOA
 lyy
 tip
 eWe
-hgO
+ath
 xzP
 lvT
 sRD
@@ -194242,9 +194285,9 @@ lFQ
 tip
 gpu
 rVb
-nEC
-nEC
-nEC
+hyM
+pLP
+rvK
 nyB
 gSZ
 tip
